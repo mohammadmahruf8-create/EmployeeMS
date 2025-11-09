@@ -45,12 +45,12 @@ export default function AddUser() {
             </div>
             <div className="mb-3">
               <label htmlFor="Username" className="form-label">
-                Username
+                Phone No.
               </label>
               <input
                 type={"text"}
                 className="form-control"
-                placeholder="Enter your username"
+                placeholder="Enter your phone no"
                 name="username"
                 value={username}
                 onChange={(e) => onInputChange(e)}
